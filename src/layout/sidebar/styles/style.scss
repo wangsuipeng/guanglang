@@ -1,0 +1,33 @@
+.app-sidebar {
+  width: 200px;
+  height: 100%;
+  float: left;
+  background: rgb(49, 60, 82);
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: width .2s;
+
+  .collapse {
+    height: 50px;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color .3s;
+
+    &:hover {
+      background: rgb(64, 74, 80);
+    }
+
+    .collapseIcon {
+      font-size: 18px;
+    }
+  }
+
+  .el-menu {
+    transition: width .1s;
+    border-right: none;
+  }
+}

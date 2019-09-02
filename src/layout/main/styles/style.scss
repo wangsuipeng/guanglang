@@ -1,0 +1,61 @@
+.app-main-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  .buttonBar {
+    height: 140px;
+    width: 40px;
+    z-index: 1000;
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+    opacity: .3;
+    transition: opacity ease-in 5s;
+
+    &:hover {
+      opacity: 1;
+      transition: none;
+    }
+
+    div {
+      height: 40px;
+      width: 40px;
+      background: #fff;
+      border-radius: 50%;
+      float: left;
+      box-shadow: 0 0 5px #707070;
+      cursor: pointer;
+      text-align: center;
+      line-height: 40px;
+      font-size: 18px;
+      color: #5bb8ff;
+      transition: all .5s;
+
+      &:nth-child(2) {
+        margin-top: 10px;
+      }
+
+      &:nth-child(3) {
+        margin-top: 10px;
+      }
+
+      &:hover {
+        background: #5bb8ff;
+        color: #fff;
+      }
+    }
+
+
+  }
+
+  .app-main {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+}
+

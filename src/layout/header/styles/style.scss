@@ -1,0 +1,70 @@
+.app-header {
+  height: 50px;
+  //background: #313c52;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  width: 100%;
+
+
+  .view-right {
+    min-width: 20px;
+    height: 100%;
+    float: right;
+    margin-right: 20px;
+
+    .avatar {
+      cursor: pointer;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      background: #ffffff;
+      box-shadow: 2px 2px 5px #b4b4b4;
+      float: left;
+      margin-top: 5px;
+    }
+
+    .i-box {
+      height: 30px;
+      width: 30px;
+      background-color: #898989;
+      border-radius: 50%;
+      margin-top: 10px;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      box-shadow: 2px 2px 5px #b4b4b4;
+      cursor: pointer;
+    }
+
+    .i-box1 {
+      border-radius: 50%;
+      margin-top: 10px;
+      color: #6e6e6e;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #5e5e5e;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+
+  }
+
+  .tip {
+    color: #fff;
+    cursor: pointer;
+    width: 130px;
+    text-align: right;
+    float: left;
+  }
+
+  .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 110px;
+    float: left;
+  }
+}
